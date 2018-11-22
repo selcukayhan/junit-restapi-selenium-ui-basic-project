@@ -13,7 +13,7 @@ public class BuyerPool {
     }
 
     public static Buyer buyerForLoginTest(WebDriver driver) {
-        return new Buyer("slckayhn@gmail.com", DEFAULT_PASSWORD, DEFAULT_USERNAME, driver);
+        return new Buyer("buyer@email.com", DEFAULT_PASSWORD, DEFAULT_USERNAME, driver);
     }
 
     public static Buyer buyerForFavoritesTest(WebDriver driver) {
