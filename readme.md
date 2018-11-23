@@ -13,7 +13,7 @@ IntelliJ Instructions
 Test Execution Instructions
 --------------------
 
-* Before running tests please update Config file and Buyer e-mails.
+* Before running tests please update Config file and Buyer e-mails. 
 
     * Please update `DEFAULT_USERNAME` and `DEFAULT_PASSWORD` variables in the Config file.
     * Please update buyer e-mails in the BuyerPool file as specified.
