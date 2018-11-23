@@ -13,6 +13,12 @@ IntelliJ Instructions
 Test Execution Instructions
 --------------------
 
+* Before running tests please update Config file and Buyer e-mails.
+
+    * Please update `DEFAULT_USERNAME` and `DEFAULT_PASSWORD` variables in the Config file.
+    * Please update buyer e-mails in the BuyerPool file as specified.
+
+
 * To execute whole tests in Test Classes :
     1. Open `SmokeTest.java` under `src/test/java/com/n11/selenium`
     2. Right click inside the home class and Click "Run SmokeTest".
@@ -25,7 +31,3 @@ Test Execution Instructions
     
     * Or Type ```mvn clean test -Dtest=SmokeTest#shouldLogin``` to terminal. 
 
-* Before running tests please update Config file and Buyer e-mails.
-
-    * Please update `DEFAULT_USERNAME` and `DEFAULT_PASSWORD` variables in the Config file.
-    * Please update buyer e-mails in the BuyerPool file as specified.
