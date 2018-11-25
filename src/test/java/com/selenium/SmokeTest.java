@@ -1,13 +1,13 @@
-package com.n11.selenium;
+package com.selenium;
 
-import com.n11.selenium.helpers.BaseTest;
-import com.n11.selenium.objects.Buyer;
-import com.n11.selenium.pages.FavoritesPage;
-import com.n11.selenium.pages.HomePage;
-import com.n11.selenium.pages.PaymentConfirmationPage;
+import com.selenium.helpers.BaseTest;
+import com.selenium.objects.Buyer;
+import com.selenium.pages.FavoritesPage;
+import com.selenium.pages.HomePage;
+import com.selenium.pages.PaymentConfirmationPage;
 import org.junit.Test;
 
-import static com.n11.selenium.objects.BuyerPool.*;
+import static com.selenium.objects.BuyerPool.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 

@@ -1,6 +1,6 @@
-package com.n11.selenium.pages;
+package com.selenium.pages;
 
-import com.n11.selenium.objects.Buyer;
+import com.selenium.objects.Buyer;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

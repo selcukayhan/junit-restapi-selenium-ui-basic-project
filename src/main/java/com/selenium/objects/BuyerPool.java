@@ -1,8 +1,8 @@
-package com.n11.selenium.objects;
+package com.selenium.objects;
 
 import org.openqa.selenium.WebDriver;
 
-import static com.n11.selenium.objects.Config.*;
+import static com.selenium.objects.Config.*;
 
 /**
  * Created by selcuk.ayhan on 17.01.2018

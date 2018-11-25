@@ -1,6 +1,6 @@
-package com.n11.selenium.helpers;
+package com.selenium.helpers;
 
-import com.n11.selenium.pages.Page;
+import com.selenium.pages.Page;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.openqa.selenium.WebElement;
 import java.lang.reflect.Field;

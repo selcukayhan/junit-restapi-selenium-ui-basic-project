@@ -1,9 +1,9 @@
-package com.n11.selenium.objects;
+package com.selenium.objects;
 
-import com.n11.selenium.pages.BasePage;
-import com.n11.selenium.pages.FavoritesPage;
-import com.n11.selenium.pages.HomePage;
-import com.n11.selenium.pages.SearchResultPage;
+import com.selenium.pages.BasePage;
+import com.selenium.pages.FavoritesPage;
+import com.selenium.pages.HomePage;
+import com.selenium.pages.SearchResultPage;
 import org.openqa.selenium.WebDriver;
 
 /**

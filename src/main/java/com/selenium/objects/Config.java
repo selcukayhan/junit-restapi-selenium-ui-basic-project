@@ -1,4 +1,4 @@
-package com.n11.selenium.objects;
+package com.selenium.objects;
 
 /**
  * Created by selcuk.ayhan on 15.01.2018

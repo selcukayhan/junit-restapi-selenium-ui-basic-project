@@ -1,5 +1,6 @@
-package com.n11.selenium.pages;
+package com.selenium.pages;
 
+import com.selenium.objects.Config;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -9,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.Set;
 import java.util.logging.Logger;
 
-import static com.n11.selenium.objects.Config.*;
 import static org.openqa.selenium.support.PageFactory.initElements;
 
 /**
@@ -27,7 +27,7 @@ public abstract class Page {
 
     private void waitForAjax() {
         ExpectedCondition<Boolean> pageLoadCondition = webDriver -> "complete".equals(((JavascriptExecutor) webDriver).executeScript("return document.readyState"));
-        WebDriverWait wait = new WebDriverWait(driver, WAITTIME_TIMEOUT);
+        WebDriverWait wait = new WebDriverWait(driver, Config.WAITTIME_TIMEOUT);
         wait.until(pageLoadCondition);
     }
 
@@ -87,7 +87,7 @@ public abstract class Page {
     }
 
     private void waitObject(WebElement element) {
-        waitObject(element, WAITTIME_ELEMENTOCCURENCE);
+        waitObject(element, Config.WAITTIME_ELEMENTOCCURENCE);
     }
 
     public void waitObject(By by) {
@@ -127,7 +127,7 @@ public abstract class Page {
     }
 
     boolean isElementPresent(WebElement element) {
-        return waitObjectSafely(element, WAITTIME_SMALL);
+        return waitObjectSafely(element, Config.WAITTIME_SMALL);
     }
 
     boolean isElementPresent(By by) {
