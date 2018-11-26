@@ -8,9 +8,6 @@ import org.openqa.selenium.support.FindBy;
 
 import static com.selenium.objects.Config.MAIN_URL;
 
-/**
- * Created by selcuk.ayhan on 15.01.2018
- */
 public class BasePage extends Page {
 
     @FindBy(className = "btnSignIn")

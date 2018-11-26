@@ -5,9 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-/**
- * Created by selcuk.ayhan on 15.01.2018
- */
+
 public class FavoritesPage extends BasePage {
 
     @FindBy(className = "emptyWatchList")

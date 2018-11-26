@@ -1,8 +1,5 @@
 package com.selenium.objects;
 
-/**
- * Created by selcuk.ayhan on 15.01.2018
- */
 public abstract class Config {
 
     public static final String MAIN_URL = "https://www.n11.com/";

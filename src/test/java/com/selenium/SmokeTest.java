@@ -11,9 +11,6 @@ import static com.selenium.objects.BuyerPool.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-/**
- * Created by selcuk.ayhan on 15.01.2018
- */
 public class SmokeTest extends BaseTest {
 
     @Test

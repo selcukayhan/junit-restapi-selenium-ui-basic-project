@@ -6,9 +6,6 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/**
- * Created by selcuk.ayhan on 15.01.2018
- */
 public class BaseTest {
 
     public WebDriver driver;

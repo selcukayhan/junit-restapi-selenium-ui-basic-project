@@ -6,9 +6,6 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-/**
- * Created by selcuk.ayhan on 15.01.2018
- */
 public class SearchResultPage extends BasePage {
 
     public SearchResultPage(WebDriver driver) {

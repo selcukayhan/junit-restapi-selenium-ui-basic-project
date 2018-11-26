@@ -4,9 +4,6 @@ import org.openqa.selenium.WebDriver;
 
 import static com.selenium.objects.Config.*;
 
-/**
- * Created by selcuk.ayhan on 17.01.2018
- */
 public class BuyerPool {
 
     private BuyerPool() {

@@ -12,9 +12,6 @@ import java.util.logging.Logger;
 
 import static org.openqa.selenium.support.PageFactory.initElements;
 
-/**
- * Created by selcuk.ayhan on 20.01.2018
- */
 public abstract class Page {
 
     private final Logger logger = Logger.getAnonymousLogger();

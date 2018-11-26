@@ -7,9 +7,6 @@ import java.lang.reflect.Field;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by selcuk.ayhan on 22.01.2018.
- */
 public class PageUtils {
 
     private final Logger logger = Logger.getAnonymousLogger();

@@ -6,9 +6,7 @@ import com.selenium.pages.HomePage;
 import com.selenium.pages.SearchResultPage;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by selcuk.ayhan on 17.01.2018
- */
+
 public class Buyer {
 
     private String email;

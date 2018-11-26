@@ -55,9 +55,9 @@
             <version>2.9.7</version>
         </dependency>
         <dependency>
-            <groupId>com.mashape.unirest</groupId>
-            <artifactId>unirest-java</artifactId>
-            <version>1.4.9</version>
+            <groupId>io.github.openunirest</groupId>
+            <artifactId>open-unirest-java</artifactId>
+            <version>3.0.02</version>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
