@@ -5,7 +5,7 @@ Base Test Automation Page Object Model Project
 IntelliJ Instructions
 --------------------
 
-1. Click "Checkout from Version Control"
+1. Open intelliJ and Click "Checkout from Version Control"
 2. Past following url and select directory to save.
     ```git repository``` : ```https://github.com/selcukayhan/baseTestAutomationPOM.git```
 3. Build as a Maven Project
