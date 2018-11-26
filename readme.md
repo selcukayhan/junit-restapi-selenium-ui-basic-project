@@ -20,14 +20,17 @@ Test Execution Instructions
 
 
 * To execute whole tests in Test Classes :
-    1. Open `SmokeTest.java` under `src/test/java/com/n11/selenium`
+    1. Open `SmokeTest.java` under `src/test/java/com/selenium`
     2. Right click inside the home class and Click "Run SmokeTest".
    
     * Or Type `mvn clean test -Dtest=SmokeTest`  to terminal. 
     
 * To execute a simple test in Test Class :
-    1. Open `SmokeTest.java` under `src/test/java/com/n11/selenium`
+    1. Open `SmokeTest.java` under `src/test/java/com/selenium`
     2. Right click inside the test method and Click "Run testMethodName()" for example "Run shouldLogin()"
     
     * Or Type ```mvn clean test -Dtest=SmokeTest#shouldLogin``` to terminal. 
 
+* To execute api tests : 
+    1. Open ApiTest under `src/test/java/com/api`
+    2. Right click inside the test method and Click "Run testMethodName()" for example "Run shouldGiveMeDirectionsFromDisneylandToUniversal()"
