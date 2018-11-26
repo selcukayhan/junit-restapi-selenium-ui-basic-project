@@ -34,3 +34,4 @@ Test Execution Instructions
 * To execute api tests : 
     1. Open ApiTest under `src/test/java/com/api`
     2. Right click inside the test method and Click "Run testMethodName()" for example "Run shouldGiveMeDirectionsFromDisneylandToUniversal()"
+    3. Please update `API_KEY` under the config file : `src/main/java/com/api/objects/Config`
