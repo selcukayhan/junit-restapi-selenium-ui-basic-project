@@ -1,13 +1,12 @@
-Base Test Automation Page Object Model Project 
+Trndyl_FD
 ==============================================================
-
 
 IntelliJ Instructions
 --------------------
 
 1. Open intelliJ and Click "Checkout from Version Control"
 2. Past following url and select directory to save.
-    ```git repository``` : ```https://github.com/selcukayhan/baseTestAutomationPOM.git```
+    ```git repository``` : ```https://github.com/fevzidulger/Trndyl_FD.git```
 3. Build as a Maven Project
 
 Test Execution Instructions
@@ -29,9 +28,4 @@ Test Execution Instructions
     1. Open `SmokeTest.java` under `src/test/java/com/selenium`
     2. Right click inside the test method and Click "Run testMethodName()" for example "Run shouldLogin()"
     
-    * Or Type ```mvn clean test -Dtest=SmokeTest#shouldLogin``` to terminal. 
-
-* To execute api tests : 
-    1. Open ApiTest under `src/test/java/com/api`
-    2. Right click inside the test method and Click "Run testMethodName()" for example "Run shouldGiveMeDirectionsFromDisneylandToUniversal()"
-    3. Please update `API_KEY` under the config file : `src/main/java/com/api/objects/Config`
+    * Or Type ```mvn clean test -Dtest=SmokeTest#shouldLogin``` to terminal
